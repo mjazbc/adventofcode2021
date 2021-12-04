@@ -1,0 +1,3 @@
+[submodule "aoc-core"]
+	path = aoc-core
+	url = https://github.com/mjazbc/aoc-core.git
