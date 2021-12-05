@@ -2,7 +2,7 @@
 
 string inputPath = "./inputs/";
 
-int day = 3;
+int day = 4;
 
 string dayName = $"Day{day:00}";
 
@@ -16,4 +16,4 @@ var puzzle = Activator.CreateInstance(t) as AdventPuzzle;
 puzzle!.Input.LoadFromFile(Path.Combine(inputPath, $"{dayName}.txt"));
 puzzle.ParseInput();
 
-puzzle.Solve(Puzzle.Second);
+puzzle.Solve(Puzzle.Both);
