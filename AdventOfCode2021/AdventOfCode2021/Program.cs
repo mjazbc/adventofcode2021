@@ -2,11 +2,11 @@
 
 string inputPath = "./inputs/";
 
-int day = 5;
+int day = 9;
 
 string dayName = $"Day{day:00}";
 
-string puzzleClassName = $"{typeof(Program).Assembly.GetName().Name}.{dayName}";
+string puzzleClassName = $"AdventOfCode2021.{dayName}";
 var t = Type.GetType(puzzleClassName);
 
 if (t == null)
