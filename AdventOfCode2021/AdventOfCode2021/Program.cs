@@ -16,4 +16,4 @@ var puzzle = Activator.CreateInstance(t) as AdventPuzzle;
 puzzle!.Input.LoadFromFile(Path.Combine(inputPath, $"{dayName}.txt"));
 puzzle.ParseInput();
 
-puzzle.Solve(Puzzle.Both);
+puzzle.Solve(Puzzle.Second);
