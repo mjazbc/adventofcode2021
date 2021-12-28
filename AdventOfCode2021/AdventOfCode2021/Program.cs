@@ -2,7 +2,7 @@
 
 string inputPath = "./inputs/";
 
-int day = 17;
+int day = 18;
 
 string dayName = $"Day{day:00}";
 
